@@ -1,0 +1,35 @@
+Classfile /home/dima4096x/Desktop/bytecode/inheritance-scala/dima4096x/Parrot.class
+  Last modified Apr 16, 2023; size 200 bytes
+  SHA-256 checksum 58b091af8e2780bfe1f1bfe6883e23372de911cfd8711c02cb028c9d71ab8908
+  Compiled from "InheritanceScala.scala"
+public interface dima4096x.Parrot
+  minor version: 0
+  major version: 52
+  flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+  this_class: #2                          // dima4096x/Parrot
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 1, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/Parrot
+   #2 = Class              #1             // dima4096x/Parrot
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               InheritanceScala.scala
+   #6 = Utf8               speak
+   #7 = Utf8               ()V
+   #8 = Utf8               Signature
+   #9 = Utf8               SourceFile
+  #10 = Utf8               TASTY
+  #11 = Utf8               Scala
+{
+  public abstract void speak();
+    descriptor: ()V
+    flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+    Signature: #7                           // ()V
+}
+SourceFile: "InheritanceScala.scala"
+  TASTY: length = 0x10 (unknown attribute)
+   00 A9 2E FD 90 59 D9 00 00 DC C7 F6 5E 7B C2 00
+
+  Scala: length = 0x0 (unknown attribute)
+

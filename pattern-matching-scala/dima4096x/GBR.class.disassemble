@@ -1,0 +1,82 @@
+Classfile /home/dima4096x/Desktop/bytecode/pattern-matching-scala/dima4096x/GBR.class
+  Last modified Apr 16, 2023; size 509 bytes
+  SHA-256 checksum fddc78359469be63140b22769361cf4d985f6ca2e3789aaba951b6cb466c13dc
+  Compiled from "PatternMatchingScala.scala"
+public class dima4096x.GBR implements dima4096x.Money
+  minor version: 0
+  major version: 52
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #2                          // dima4096x/GBR
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 1, methods: 2, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/GBR
+   #2 = Class              #1             // dima4096x/GBR
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               dima4096x/Money
+   #6 = Class              #5             // dima4096x/Money
+   #7 = Utf8               PatternMatchingScala.scala
+   #8 = Utf8               amount
+   #9 = Utf8               J
+  #10 = Utf8               <init>
+  #11 = Utf8               (J)V
+  #12 = NameAndType        #8:#9          // amount:J
+  #13 = Fieldref           #2.#12         // dima4096x/GBR.amount:J
+  #14 = Utf8               ()V
+  #15 = NameAndType        #10:#14        // "<init>":()V
+  #16 = Methodref          #4.#15         // java/lang/Object."<init>":()V
+  #17 = Utf8               this
+  #18 = Utf8               Ldima4096x/GBR;
+  #19 = Utf8               ()J
+  #20 = Utf8               Code
+  #21 = Utf8               LineNumberTable
+  #22 = Utf8               LocalVariableTable
+  #23 = Utf8               MethodParameters
+  #24 = Utf8               Signature
+  #25 = Utf8               SourceFile
+  #26 = Utf8               TASTY
+  #27 = Utf8               Scala
+{
+  public dima4096x.GBR(long);
+    descriptor: (J)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: aload_0
+         1: lload_1
+         2: putfield      #13                 // Field amount:J
+         5: aload_0
+         6: invokespecial #16                 // Method java/lang/Object."<init>":()V
+         9: return
+      LineNumberTable:
+        line 16: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  this   Ldima4096x/GBR;
+            0      10     1 amount   J
+    MethodParameters:
+      Name                           Flags
+      amount                         final
+
+  public long amount();
+    descriptor: ()J
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #13                 // Field amount:J
+         4: lreturn
+      LineNumberTable:
+        line 16: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/GBR;
+    Signature: #19                          // ()J
+}
+SourceFile: "PatternMatchingScala.scala"
+  TASTY: length = 0x10 (unknown attribute)
+   00 40 BE 85 CC F3 68 00 00 B6 15 80 26 EC A7 00
+
+  Scala: length = 0x0 (unknown attribute)
+

@@ -1,0 +1,249 @@
+Classfile /home/dima4096x/Desktop/bytecode/pattern-matching-scala/dima4096x/PatternMatchingScala$.class
+  Last modified Apr 16, 2023; size 1780 bytes
+  SHA-256 checksum 4075a87b28c387d32f8d25aebe5a688bac84f83de6ef409451b3ba76fabf95aa
+  Compiled from "PatternMatchingScala.scala"
+public final class dima4096x.PatternMatchingScala$ implements java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/PatternMatchingScala$
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 2, methods: 4, attributes: 2
+Constant pool:
+    #1 = Utf8               dima4096x/PatternMatchingScala$
+    #2 = Class              #1            // dima4096x/PatternMatchingScala$
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               java/io/Serializable
+    #6 = Class              #5            // java/io/Serializable
+    #7 = Utf8               PatternMatchingScala.scala
+    #8 = Utf8               p
+    #9 = Utf8               Ldima4096x/Money;
+   #10 = Utf8               MODULE$
+   #11 = Utf8               Ldima4096x/PatternMatchingScala$;
+   #12 = Utf8               <init>
+   #13 = Utf8               ()V
+   #14 = NameAndType        #12:#13       // "<init>":()V
+   #15 = Methodref          #4.#14        // java/lang/Object."<init>":()V
+   #16 = Utf8               this
+   #17 = Utf8               <clinit>
+   #18 = Methodref          #2.#14        // dima4096x/PatternMatchingScala$."<init>":()V
+   #19 = NameAndType        #10:#11       // MODULE$:Ldima4096x/PatternMatchingScala$;
+   #20 = Fieldref           #2.#19        // dima4096x/PatternMatchingScala$.MODULE$:Ldima4096x/PatternMatchingScala$;
+   #21 = Utf8               dima4096x/RUB$
+   #22 = Class              #21           // dima4096x/RUB$
+   #23 = Utf8               Ldima4096x/RUB$;
+   #24 = NameAndType        #10:#23       // MODULE$:Ldima4096x/RUB$;
+   #25 = Fieldref           #22.#24       // dima4096x/RUB$.MODULE$:Ldima4096x/RUB$;
+   #26 = Long               20l
+   #28 = Utf8               apply
+   #29 = Utf8               (J)Ldima4096x/RUB;
+   #30 = NameAndType        #28:#29       // apply:(J)Ldima4096x/RUB;
+   #31 = Methodref          #22.#30       // dima4096x/RUB$.apply:(J)Ldima4096x/RUB;
+   #32 = NameAndType        #8:#9         // p:Ldima4096x/Money;
+   #33 = Fieldref           #2.#32        // dima4096x/PatternMatchingScala$.p:Ldima4096x/Money;
+   #34 = Utf8               ()Ldima4096x/Money;
+   #35 = NameAndType        #8:#34        // p:()Ldima4096x/Money;
+   #36 = Methodref          #2.#35        // dima4096x/PatternMatchingScala$.p:()Ldima4096x/Money;
+   #37 = Utf8               dima4096x/USD
+   #38 = Class              #37           // dima4096x/USD
+   #39 = Utf8               dima4096x/USD$
+   #40 = Class              #39           // dima4096x/USD$
+   #41 = Utf8               Ldima4096x/USD$;
+   #42 = NameAndType        #10:#41       // MODULE$:Ldima4096x/USD$;
+   #43 = Fieldref           #40.#42       // dima4096x/USD$.MODULE$:Ldima4096x/USD$;
+   #44 = Utf8               unapply
+   #45 = Utf8               (Ldima4096x/USD;)Ldima4096x/USD;
+   #46 = NameAndType        #44:#45       // unapply:(Ldima4096x/USD;)Ldima4096x/USD;
+   #47 = Methodref          #40.#46       // dima4096x/USD$.unapply:(Ldima4096x/USD;)Ldima4096x/USD;
+   #48 = Utf8               _1
+   #49 = Utf8               ()J
+   #50 = NameAndType        #48:#49       // _1:()J
+   #51 = Methodref          #38.#50       // dima4096x/USD._1:()J
+   #52 = Utf8               scala/Predef$
+   #53 = Class              #52           // scala/Predef$
+   #54 = Utf8               Lscala/Predef$;
+   #55 = NameAndType        #10:#54       // MODULE$:Lscala/Predef$;
+   #56 = Fieldref           #53.#55       // scala/Predef$.MODULE$:Lscala/Predef$;
+   #57 = Utf8               java/lang/StringBuilder
+   #58 = Class              #57           // java/lang/StringBuilder
+   #59 = Integer            4
+   #60 = Utf8               (I)V
+   #61 = NameAndType        #12:#60       // "<init>":(I)V
+   #62 = Methodref          #58.#61       // java/lang/StringBuilder."<init>":(I)V
+   #63 = Utf8               USD
+   #64 = String             #63           // USD
+   #65 = Utf8               append
+   #66 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #67 = NameAndType        #65:#66       // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #68 = Methodref          #58.#67       // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #69 = Utf8               (J)Ljava/lang/StringBuilder;
+   #70 = NameAndType        #65:#69       // append:(J)Ljava/lang/StringBuilder;
+   #71 = Methodref          #58.#70       // java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+   #72 = Utf8               toString
+   #73 = Utf8               ()Ljava/lang/String;
+   #74 = NameAndType        #72:#73       // toString:()Ljava/lang/String;
+   #75 = Methodref          #58.#74       // java/lang/StringBuilder.toString:()Ljava/lang/String;
+   #76 = Utf8               println
+   #77 = Utf8               (Ljava/lang/Object;)V
+   #78 = NameAndType        #76:#77       // println:(Ljava/lang/Object;)V
+   #79 = Methodref          #53.#78       // scala/Predef$.println:(Ljava/lang/Object;)V
+   #80 = Utf8               dima4096x/RUB
+   #81 = Class              #80           // dima4096x/RUB
+   #82 = Utf8               (Ldima4096x/RUB;)Ldima4096x/RUB;
+   #83 = NameAndType        #44:#82       // unapply:(Ldima4096x/RUB;)Ldima4096x/RUB;
+   #84 = Methodref          #22.#83       // dima4096x/RUB$.unapply:(Ldima4096x/RUB;)Ldima4096x/RUB;
+   #85 = Methodref          #81.#50       // dima4096x/RUB._1:()J
+   #86 = Utf8               RUB
+   #87 = String             #86           // RUB
+   #88 = Utf8               dima4096x/GBR
+   #89 = Class              #88           // dima4096x/GBR
+   #90 = Utf8               GBR
+   #91 = String             #90           // GBR
+   #92 = Utf8               amount
+   #93 = NameAndType        #92:#49       // amount:()J
+   #94 = Methodref          #89.#93       // dima4096x/GBR.amount:()J
+   #95 = Utf8               scala/MatchError
+   #96 = Class              #95           // scala/MatchError
+   #97 = NameAndType        #12:#77       // "<init>":(Ljava/lang/Object;)V
+   #98 = Methodref          #96.#97       // scala/MatchError."<init>":(Ljava/lang/Object;)V
+   #99 = Utf8               J
+  #100 = Utf8               gbr
+  #101 = Utf8               Ldima4096x/GBR;
+  #102 = Utf8               dima4096x/Money
+  #103 = Class              #102          // dima4096x/Money
+  #104 = Utf8               writeReplace
+  #105 = Utf8               ()Ljava/lang/Object;
+  #106 = Utf8               scala/runtime/ModuleSerializationProxy
+  #107 = Class              #106          // scala/runtime/ModuleSerializationProxy
+  #108 = Utf8               (Ljava/lang/Class;)V
+  #109 = NameAndType        #12:#108      // "<init>":(Ljava/lang/Class;)V
+  #110 = Methodref          #107.#109     // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+  #111 = Utf8               Code
+  #112 = Utf8               LineNumberTable
+  #113 = Utf8               LocalVariableTable
+  #114 = Utf8               StackMapTable
+  #115 = Utf8               Signature
+  #116 = Utf8               SourceFile
+  #117 = Utf8               Scala
+{
+  public static final dima4096x.PatternMatchingScala$ MODULE$;
+    descriptor: Ldima4096x/PatternMatchingScala$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=10, args_size=0
+         0: new           #2                  // class dima4096x/PatternMatchingScala$
+         3: dup
+         4: invokespecial #18                 // Method "<init>":()V
+         7: putstatic     #20                 // Field MODULE$:Ldima4096x/PatternMatchingScala$;
+        10: getstatic     #25                 // Field dima4096x/RUB$.MODULE$:Ldima4096x/RUB$;
+        13: ldc2_w        #26                 // long 20l
+        16: invokevirtual #31                 // Method dima4096x/RUB$.apply:(J)Ldima4096x/RUB;
+        19: putstatic     #33                 // Field p:Ldima4096x/Money;
+        22: getstatic     #20                 // Field MODULE$:Ldima4096x/PatternMatchingScala$;
+        25: invokevirtual #36                 // Method p:()Ldima4096x/Money;
+        28: astore_0
+        29: aload_0
+        30: instanceof    #38                 // class dima4096x/USD
+        33: ifeq          86
+        36: getstatic     #43                 // Field dima4096x/USD$.MODULE$:Ldima4096x/USD$;
+        39: aload_0
+        40: checkcast     #38                 // class dima4096x/USD
+        43: invokevirtual #47                 // Method dima4096x/USD$.unapply:(Ldima4096x/USD;)Ldima4096x/USD;
+        46: astore_1
+        47: aload_1
+        48: invokevirtual #51                 // Method dima4096x/USD._1:()J
+        51: lstore_2
+        52: lload_2
+        53: lstore        4
+        55: getstatic     #56                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        58: new           #58                 // class java/lang/StringBuilder
+        61: dup
+        62: ldc           #59                 // int 4
+        64: invokespecial #62                 // Method java/lang/StringBuilder."<init>":(I)V
+        67: ldc           #64                 // String USD
+        69: invokevirtual #68                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        72: lload         4
+        74: invokevirtual #71                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+        77: invokevirtual #75                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        80: invokevirtual #79                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        83: goto          179
+        86: aload_0
+        87: instanceof    #81                 // class dima4096x/RUB
+        90: ifeq          123
+        93: getstatic     #25                 // Field dima4096x/RUB$.MODULE$:Ldima4096x/RUB$;
+        96: aload_0
+        97: checkcast     #81                 // class dima4096x/RUB
+       100: invokevirtual #84                 // Method dima4096x/RUB$.unapply:(Ldima4096x/RUB;)Ldima4096x/RUB;
+       103: astore        6
+       105: aload         6
+       107: invokevirtual #85                 // Method dima4096x/RUB._1:()J
+       110: lstore        7
+       112: getstatic     #56                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       115: ldc           #87                 // String RUB
+       117: invokevirtual #79                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+       120: goto          179
+       123: aload_0
+       124: instanceof    #89                 // class dima4096x/GBR
+       127: ifeq          170
+       130: aload_0
+       131: checkcast     #89                 // class dima4096x/GBR
+       134: astore        9
+       136: getstatic     #56                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+       139: new           #58                 // class java/lang/StringBuilder
+       142: dup
+       143: ldc           #59                 // int 4
+       145: invokespecial #62                 // Method java/lang/StringBuilder."<init>":(I)V
+       148: ldc           #91                 // String GBR
+       150: invokevirtual #68                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       153: aload         9
+       155: invokevirtual #94                 // Method dima4096x/GBR.amount:()J
+       158: invokevirtual #71                 // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+       161: invokevirtual #75                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       164: invokevirtual #79                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+       167: goto          179
+       170: new           #96                 // class scala/MatchError
+       173: dup
+       174: aload_0
+       175: invokespecial #98                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+       178: athrow
+       179: return
+      StackMapTable: number_of_entries = 4
+        frame_type = 252 /* append */
+          offset_delta = 86
+          locals = [ class dima4096x/Money ]
+        frame_type = 36 /* same */
+        frame_type = 46 /* same */
+        frame_type = 8 /* same */
+      LineNumberTable:
+        line 4: 0
+        line 5: 22
+        line 6: 29
+        line 7: 86
+        line 8: 123
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           55      31     4 amount   J
+          136      34     9   gbr   Ldima4096x/GBR;
+
+  public dima4096x.Money p();
+    descriptor: ()Ldima4096x/Money;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #33                 // Field p:Ldima4096x/Money;
+         3: areturn
+      LineNumberTable:
+        line 4: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/PatternMatchingScala$;
+    Signature: #34                          // ()Ldima4096x/Money;
+}
+SourceFile: "PatternMatchingScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+

@@ -1,0 +1,284 @@
+Classfile /home/dima4096x/Desktop/bytecode/hello-world-scala/dima4096x/HelloWorldScala$.class
+  Last modified Apr 16, 2023; size 2263 bytes
+  SHA-256 checksum 6a53f611850c2dbfa0eedf861de188d43e4b12b2ca6ebd0f1bda9055fbdd7f06
+  Compiled from "HelloWorldScala.scala"
+public final class dima4096x.HelloWorldScala$ implements scala.App,java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/HelloWorldScala$
+  super_class: #4                         // java/lang/Object
+  interfaces: 2, fields: 4, methods: 12, attributes: 2
+Constant pool:
+   #1 = Utf8               dima4096x/HelloWorldScala$
+   #2 = Class              #1             // dima4096x/HelloWorldScala$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               scala/App
+   #6 = Class              #5             // scala/App
+   #7 = Utf8               java/io/Serializable
+   #8 = Class              #7             // java/io/Serializable
+   #9 = Utf8               HelloWorldScala.scala
+  #10 = Utf8               executionStart
+  #11 = Utf8               J
+  #12 = Utf8               scala$App$$_args
+  #13 = Utf8               [Ljava/lang/String;
+  #14 = Utf8               scala$App$$initCode
+  #15 = Utf8               Lscala/collection/mutable/ListBuffer;
+  #16 = Utf8               MODULE$
+  #17 = Utf8               Ldima4096x/HelloWorldScala$;
+  #18 = Utf8               <init>
+  #19 = Utf8               ()V
+  #20 = NameAndType        #18:#19        // "<init>":()V
+  #21 = Methodref          #4.#20         // java/lang/Object."<init>":()V
+  #22 = Utf8               this
+  #23 = Utf8               <clinit>
+  #24 = Methodref          #2.#20         // dima4096x/HelloWorldScala$."<init>":()V
+  #25 = NameAndType        #16:#17        // MODULE$:Ldima4096x/HelloWorldScala$;
+  #26 = Fieldref           #2.#25         // dima4096x/HelloWorldScala$.MODULE$:Ldima4096x/HelloWorldScala$;
+  #27 = Utf8               $init$
+  #28 = Utf8               (Lscala/App;)V
+  #29 = NameAndType        #27:#28        // $init$:(Lscala/App;)V
+  #30 = InterfaceMethodref #6.#29         // scala/App.$init$:(Lscala/App;)V
+  #31 = Utf8               scala/Predef$
+  #32 = Class              #31            // scala/Predef$
+  #33 = Utf8               Lscala/Predef$;
+  #34 = NameAndType        #16:#33        // MODULE$:Lscala/Predef$;
+  #35 = Fieldref           #32.#34        // scala/Predef$.MODULE$:Lscala/Predef$;
+  #36 = Utf8               Hello World
+  #37 = String             #36            // Hello World
+  #38 = Utf8               println
+  #39 = Utf8               (Ljava/lang/Object;)V
+  #40 = NameAndType        #38:#39        // println:(Ljava/lang/Object;)V
+  #41 = Methodref          #32.#40        // scala/Predef$.println:(Ljava/lang/Object;)V
+  #42 = Utf8               scala/runtime/Statics
+  #43 = Class              #42            // scala/runtime/Statics
+  #44 = Utf8               releaseFence
+  #45 = NameAndType        #44:#19        // releaseFence:()V
+  #46 = Methodref          #43.#45        // scala/runtime/Statics.releaseFence:()V
+  #47 = Utf8               ()J
+  #48 = NameAndType        #10:#11        // executionStart:J
+  #49 = Fieldref           #2.#48         // dima4096x/HelloWorldScala$.executionStart:J
+  #50 = Utf8               ()[Ljava/lang/String;
+  #51 = NameAndType        #12:#13        // scala$App$$_args:[Ljava/lang/String;
+  #52 = Fieldref           #2.#51         // dima4096x/HelloWorldScala$.scala$App$$_args:[Ljava/lang/String;
+  #53 = Utf8               ()Lscala/collection/mutable/ListBuffer;
+  #54 = NameAndType        #14:#15        // scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+  #55 = Fieldref           #2.#54         // dima4096x/HelloWorldScala$.scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+  #56 = Utf8               scala$App$$_args_$eq
+  #57 = Utf8               ([Ljava/lang/String;)V
+  #58 = Utf8               x$1
+  #59 = Utf8               scala$App$_setter_$executionStart_$eq
+  #60 = Utf8               (J)V
+  #61 = Utf8               x$0
+  #62 = Utf8               scala$App$_setter_$scala$App$$initCode_$eq
+  #63 = Utf8               (Lscala/collection/mutable/ListBuffer;)V
+  #64 = Utf8               args
+  #65 = Utf8               args$
+  #66 = Utf8               (Lscala/App;)[Ljava/lang/String;
+  #67 = NameAndType        #65:#66        // args$:(Lscala/App;)[Ljava/lang/String;
+  #68 = InterfaceMethodref #6.#67         // scala/App.args$:(Lscala/App;)[Ljava/lang/String;
+  #69 = Utf8               delayedInit
+  #70 = Utf8               (Lscala/Function0;)V
+  #71 = Utf8               body
+  #72 = Utf8               delayedInit$
+  #73 = Utf8               (Lscala/App;Lscala/Function0;)V
+  #74 = NameAndType        #72:#73        // delayedInit$:(Lscala/App;Lscala/Function0;)V
+  #75 = InterfaceMethodref #6.#74         // scala/App.delayedInit$:(Lscala/App;Lscala/Function0;)V
+  #76 = Utf8               Lscala/Function0;
+  #77 = Utf8               main
+  #78 = Utf8               main$
+  #79 = Utf8               (Lscala/App;[Ljava/lang/String;)V
+  #80 = NameAndType        #78:#79        // main$:(Lscala/App;[Ljava/lang/String;)V
+  #81 = InterfaceMethodref #6.#80         // scala/App.main$:(Lscala/App;[Ljava/lang/String;)V
+  #82 = Utf8               writeReplace
+  #83 = Utf8               ()Ljava/lang/Object;
+  #84 = Utf8               scala/runtime/ModuleSerializationProxy
+  #85 = Class              #84            // scala/runtime/ModuleSerializationProxy
+  #86 = Utf8               (Ljava/lang/Class;)V
+  #87 = NameAndType        #18:#86        // "<init>":(Ljava/lang/Class;)V
+  #88 = Methodref          #85.#87        // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+  #89 = Utf8               Signature
+  #90 = Utf8               Code
+  #91 = Utf8               LineNumberTable
+  #92 = Utf8               LocalVariableTable
+  #93 = Utf8               MethodParameters
+  #94 = Utf8               Deprecated
+  #95 = Utf8               SourceFile
+  #96 = Utf8               Scala
+{
+  public static final dima4096x.HelloWorldScala$ MODULE$;
+    descriptor: Ldima4096x/HelloWorldScala$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #2                  // class dima4096x/HelloWorldScala$
+         3: dup
+         4: invokespecial #24                 // Method "<init>":()V
+         7: putstatic     #26                 // Field MODULE$:Ldima4096x/HelloWorldScala$;
+        10: getstatic     #26                 // Field MODULE$:Ldima4096x/HelloWorldScala$;
+        13: invokestatic  #30                 // InterfaceMethod scala/App.$init$:(Lscala/App;)V
+        16: getstatic     #35                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        19: ldc           #37                 // String Hello World
+        21: invokevirtual #41                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        24: invokestatic  #46                 // Method scala/runtime/Statics.releaseFence:()V
+        27: return
+      LineNumberTable:
+        line 3: 0
+        line 4: 16
+
+  public final long executionStart();
+    descriptor: ()J
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #49                 // Field executionStart:J
+         3: lreturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/HelloWorldScala$;
+
+  public java.lang.String[] scala$App$$_args();
+    descriptor: ()[Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #52                 // Field scala$App$$_args:[Ljava/lang/String;
+         3: areturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/HelloWorldScala$;
+
+  public scala.collection.mutable.ListBuffer scala$App$$initCode();
+    descriptor: ()Lscala/collection/mutable/ListBuffer;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #55                 // Field scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+         3: areturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/HelloWorldScala$;
+    Signature: #53                          // ()Lscala/collection/mutable/ListBuffer;
+
+  public void scala$App$$_args_$eq(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #52                 // Field scala$App$$_args:[Ljava/lang/String;
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/HelloWorldScala$;
+            0       5     1   x$1   [Ljava/lang/String;
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public void scala$App$_setter_$executionStart_$eq(long);
+    descriptor: (J)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=2
+         0: lload_1
+         1: putstatic     #49                 // Field executionStart:J
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/HelloWorldScala$;
+            0       5     1   x$0   J
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  public void scala$App$_setter_$scala$App$$initCode_$eq(scala.collection.mutable.ListBuffer);
+    descriptor: (Lscala/collection/mutable/ListBuffer;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #55                 // Field scala$App$$initCode:Lscala/collection/mutable/ListBuffer;
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/HelloWorldScala$;
+            0       5     1   x$0   Lscala/collection/mutable/ListBuffer;
+    Signature: #63                          // (Lscala/collection/mutable/ListBuffer;)V
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  public java.lang.String[] args();
+    descriptor: ()[Ljava/lang/String;
+    flags: (0x1041) ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokestatic  #68                 // InterfaceMethod scala/App.args$:(Lscala/App;)[Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/HelloWorldScala$;
+
+  public void delayedInit(scala.Function0);
+    descriptor: (Lscala/Function0;)V
+    flags: (0x1041) ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #75                 // InterfaceMethod scala/App.delayedInit$:(Lscala/App;Lscala/Function0;)V
+         5: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldima4096x/HelloWorldScala$;
+            0       6     1  body   Lscala/Function0;
+    Deprecated: true
+    MethodParameters:
+      Name                           Flags
+      body                           final
+
+  public void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x1041) ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #81                 // InterfaceMethod scala/App.main$:(Lscala/App;[Ljava/lang/String;)V
+         5: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldima4096x/HelloWorldScala$;
+            0       6     1  args   [Ljava/lang/String;
+    MethodParameters:
+      Name                           Flags
+      args                           final
+}
+SourceFile: "HelloWorldScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+

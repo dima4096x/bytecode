@@ -1,0 +1,82 @@
+Classfile /home/dima4096x/Desktop/bytecode/inheritance-scala/dima4096x/ParrotOneLanguage.class
+  Last modified Apr 16, 2023; size 569 bytes
+  SHA-256 checksum c22170e7f78f947a77b43e3c025b99c3e6378c4b5245eba336ffa22498f737f3
+  Compiled from "InheritanceScala.scala"
+public class dima4096x.ParrotOneLanguage implements dima4096x.Parrot
+  minor version: 0
+  major version: 52
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #2                          // dima4096x/ParrotOneLanguage
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 0, methods: 2, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/ParrotOneLanguage
+   #2 = Class              #1             // dima4096x/ParrotOneLanguage
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               dima4096x/Parrot
+   #6 = Class              #5             // dima4096x/Parrot
+   #7 = Utf8               InheritanceScala.scala
+   #8 = Utf8               <init>
+   #9 = Utf8               ()V
+  #10 = NameAndType        #8:#9          // "<init>":()V
+  #11 = Methodref          #4.#10         // java/lang/Object."<init>":()V
+  #12 = Utf8               this
+  #13 = Utf8               Ldima4096x/ParrotOneLanguage;
+  #14 = Utf8               speak
+  #15 = Utf8               scala/Predef$
+  #16 = Class              #15            // scala/Predef$
+  #17 = Utf8               MODULE$
+  #18 = Utf8               Lscala/Predef$;
+  #19 = NameAndType        #17:#18        // MODULE$:Lscala/Predef$;
+  #20 = Fieldref           #16.#19        // scala/Predef$.MODULE$:Lscala/Predef$;
+  #21 = Utf8               hello
+  #22 = String             #21            // hello
+  #23 = Utf8               println
+  #24 = Utf8               (Ljava/lang/Object;)V
+  #25 = NameAndType        #23:#24        // println:(Ljava/lang/Object;)V
+  #26 = Methodref          #16.#25        // scala/Predef$.println:(Ljava/lang/Object;)V
+  #27 = Utf8               Code
+  #28 = Utf8               LineNumberTable
+  #29 = Utf8               LocalVariableTable
+  #30 = Utf8               Signature
+  #31 = Utf8               SourceFile
+  #32 = Utf8               TASTY
+  #33 = Utf8               Scala
+{
+  public dima4096x.ParrotOneLanguage();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #11                 // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 11: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/ParrotOneLanguage;
+
+  public void speak();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: getstatic     #20                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+         3: ldc           #22                 // String hello
+         5: invokevirtual #26                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+         8: return
+      LineNumberTable:
+        line 12: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Ldima4096x/ParrotOneLanguage;
+    Signature: #9                           // ()V
+}
+SourceFile: "InheritanceScala.scala"
+  TASTY: length = 0x10 (unknown attribute)
+   00 64 D7 00 9D 14 54 00 00 2C FC 3A 3E 47 74 00
+
+  Scala: length = 0x0 (unknown attribute)
+

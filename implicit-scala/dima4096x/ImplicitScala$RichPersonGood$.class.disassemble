@@ -1,0 +1,240 @@
+Classfile /home/dima4096x/Desktop/bytecode/implicit-scala/dima4096x/ImplicitScala$RichPersonGood$.class
+  Last modified Apr 16, 2023; size 1794 bytes
+  SHA-256 checksum 1fdb9883de7b570c460fa5a50a2da5843ee437ad1aadfe3fb429ee5e7f3980ba
+  Compiled from "ImplicitScala.scala"
+public final class dima4096x.ImplicitScala$RichPersonGood$ implements java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/ImplicitScala$RichPersonGood$
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 1, methods: 6, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/ImplicitScala$RichPersonGood$
+   #2 = Class              #1             // dima4096x/ImplicitScala$RichPersonGood$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               java/io/Serializable
+   #6 = Class              #5             // java/io/Serializable
+   #7 = Utf8               ImplicitScala.scala
+   #8 = Utf8               dima4096x/ImplicitScala$RichPersonGood
+   #9 = Class              #8             // dima4096x/ImplicitScala$RichPersonGood
+  #10 = Utf8               dima4096x/ImplicitScala
+  #11 = Class              #10            // dima4096x/ImplicitScala
+  #12 = Utf8               RichPersonGood
+  #13 = Utf8               RichPersonGood$
+  #14 = Utf8               MODULE$
+  #15 = Utf8               Ldima4096x/ImplicitScala$RichPersonGood$;
+  #16 = Utf8               <init>
+  #17 = Utf8               ()V
+  #18 = NameAndType        #16:#17        // "<init>":()V
+  #19 = Methodref          #4.#18         // java/lang/Object."<init>":()V
+  #20 = Utf8               this
+  #21 = Utf8               <clinit>
+  #22 = Methodref          #2.#18         // dima4096x/ImplicitScala$RichPersonGood$."<init>":()V
+  #23 = NameAndType        #14:#15        // MODULE$:Ldima4096x/ImplicitScala$RichPersonGood$;
+  #24 = Fieldref           #2.#23         // dima4096x/ImplicitScala$RichPersonGood$.MODULE$:Ldima4096x/ImplicitScala$RichPersonGood$;
+  #25 = Utf8               writeReplace
+  #26 = Utf8               ()Ljava/lang/Object;
+  #27 = Utf8               scala/runtime/ModuleSerializationProxy
+  #28 = Class              #27            // scala/runtime/ModuleSerializationProxy
+  #29 = Utf8               (Ljava/lang/Class;)V
+  #30 = NameAndType        #16:#29        // "<init>":(Ljava/lang/Class;)V
+  #31 = Methodref          #28.#30        // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+  #32 = Utf8               hashCode$extension
+  #33 = Utf8               (Ldima4096x/Person;)I
+  #34 = Utf8               $this
+  #35 = Utf8               dima4096x/Person
+  #36 = Class              #35            // dima4096x/Person
+  #37 = Utf8               hashCode
+  #38 = Utf8               ()I
+  #39 = NameAndType        #37:#38        // hashCode:()I
+  #40 = Methodref          #36.#39        // dima4096x/Person.hashCode:()I
+  #41 = Utf8               Ldima4096x/Person;
+  #42 = Utf8               equals$extension
+  #43 = Utf8               (Ldima4096x/Person;Ljava/lang/Object;)Z
+  #44 = Utf8               x$0
+  #45 = Utf8               dima4096x$ImplicitScala$RichPersonGood$$p
+  #46 = Utf8               ()Ldima4096x/Person;
+  #47 = NameAndType        #45:#46        // dima4096x$ImplicitScala$RichPersonGood$$p:()Ldima4096x/Person;
+  #48 = Methodref          #9.#47         // dima4096x/ImplicitScala$RichPersonGood.dima4096x$ImplicitScala$RichPersonGood$$p:()Ldima4096x/Person;
+  #49 = Utf8               equals
+  #50 = Utf8               (Ljava/lang/Object;)Z
+  #51 = NameAndType        #49:#50        // equals:(Ljava/lang/Object;)Z
+  #52 = Methodref          #4.#51         // java/lang/Object.equals:(Ljava/lang/Object;)Z
+  #53 = Utf8               Ljava/lang/Object;
+  #54 = Utf8               greetingAnyVal$extension
+  #55 = Utf8               (Ldima4096x/Person;)Ljava/lang/String;
+  #56 = Utf8               java/lang/StringBuilder
+  #57 = Class              #56            // java/lang/StringBuilder
+  #58 = Integer            7
+  #59 = Utf8               (I)V
+  #60 = NameAndType        #16:#59        // "<init>":(I)V
+  #61 = Methodref          #57.#60        // java/lang/StringBuilder."<init>":(I)V
+  #62 = Utf8               Hello,
+  #63 = String             #62            // Hello,
+  #64 = Utf8               append
+  #65 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #66 = NameAndType        #64:#65        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #67 = Methodref          #57.#66        // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #68 = Utf8               name
+  #69 = Utf8               ()Ljava/lang/String;
+  #70 = NameAndType        #68:#69        // name:()Ljava/lang/String;
+  #71 = Methodref          #36.#70        // dima4096x/Person.name:()Ljava/lang/String;
+  #72 = Utf8               toString
+  #73 = NameAndType        #72:#69        // toString:()Ljava/lang/String;
+  #74 = Methodref          #57.#73        // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #75 = Utf8               Code
+  #76 = Utf8               LineNumberTable
+  #77 = Utf8               LocalVariableTable
+  #78 = Utf8               MethodParameters
+  #79 = Utf8               StackMapTable
+  #80 = Utf8               InnerClasses
+  #81 = Utf8               SourceFile
+  #82 = Utf8               Scala
+{
+  public static final dima4096x.ImplicitScala$RichPersonGood$ MODULE$;
+    descriptor: Ldima4096x/ImplicitScala$RichPersonGood$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public dima4096x.ImplicitScala$RichPersonGood$();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #19                 // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 16: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/ImplicitScala$RichPersonGood$;
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #2                  // class dima4096x/ImplicitScala$RichPersonGood$
+         3: dup
+         4: invokespecial #22                 // Method "<init>":()V
+         7: putstatic     #24                 // Field MODULE$:Ldima4096x/ImplicitScala$RichPersonGood$;
+        10: return
+      LineNumberTable:
+        line 16: 0
+
+  public final int hashCode$extension(dima4096x.Person);
+    descriptor: (Ldima4096x/Person;)I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: invokevirtual #40                 // Method dima4096x/Person.hashCode:()I
+         4: ireturn
+      LineNumberTable:
+        line 16: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/ImplicitScala$RichPersonGood$;
+            0       5     1 $this   Ldima4096x/Person;
+    MethodParameters:
+      Name                           Flags
+      $this                          final
+
+  public final boolean equals$extension(dima4096x.Person, java.lang.Object);
+    descriptor: (Ldima4096x/Person;Ljava/lang/Object;)Z
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=6, args_size=3
+         0: aload_2
+         1: astore_3
+         2: aload_3
+         3: instanceof    #9                  // class dima4096x/ImplicitScala$RichPersonGood
+         6: ifeq          58
+         9: aload_3
+        10: ifnonnull     17
+        13: aconst_null
+        14: goto          24
+        17: aload_3
+        18: checkcast     #9                  // class dima4096x/ImplicitScala$RichPersonGood
+        21: invokevirtual #48                 // Method dima4096x/ImplicitScala$RichPersonGood.dima4096x$ImplicitScala$RichPersonGood$$p:()Ldima4096x/Person;
+        24: astore        4
+        26: aload_1
+        27: aload         4
+        29: astore        5
+        31: dup
+        32: ifnonnull     44
+        35: pop
+        36: aload         5
+        38: ifnull        52
+        41: goto          56
+        44: aload         5
+        46: invokevirtual #52                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        49: ifeq          56
+        52: iconst_1
+        53: goto          57
+        56: iconst_0
+        57: ireturn
+        58: iconst_0
+        59: ireturn
+      StackMapTable: number_of_entries = 7
+        frame_type = 252 /* append */
+          offset_delta = 17
+          locals = [ class java/lang/Object ]
+        frame_type = 70 /* same_locals_1_stack_item */
+          stack = [ class dima4096x/Person ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 19
+          locals = [ class dima4096x/ImplicitScala$RichPersonGood$, class dima4096x/Person, class java/lang/Object, class java/lang/Object, class dima4096x/Person, class dima4096x/Person ]
+          stack = [ class dima4096x/Person ]
+        frame_type = 7 /* same */
+        frame_type = 3 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 249 /* chop */
+          offset_delta = 0
+      LineNumberTable:
+        line 16: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      60     0  this   Ldima4096x/ImplicitScala$RichPersonGood$;
+            0      60     1 $this   Ldima4096x/Person;
+            0      60     2   x$0   Ljava/lang/Object;
+    MethodParameters:
+      Name                           Flags
+      $this                          final
+      x$0                            final
+
+  public final java.lang.String greetingAnyVal$extension(dima4096x.Person);
+    descriptor: (Ldima4096x/Person;)Ljava/lang/String;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=3, locals=2, args_size=2
+         0: new           #57                 // class java/lang/StringBuilder
+         3: dup
+         4: ldc           #58                 // int 7
+         6: invokespecial #61                 // Method java/lang/StringBuilder."<init>":(I)V
+         9: ldc           #63                 // String Hello,
+        11: invokevirtual #67                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        14: aload_1
+        15: invokevirtual #71                 // Method dima4096x/Person.name:()Ljava/lang/String;
+        18: invokevirtual #67                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        21: invokevirtual #74                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        24: areturn
+      LineNumberTable:
+        line 17: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      25     0  this   Ldima4096x/ImplicitScala$RichPersonGood$;
+            0      25     1 $this   Ldima4096x/Person;
+    MethodParameters:
+      Name                           Flags
+      $this                          final
+}
+InnerClasses:
+  public static final #12= #9 of #11;     // RichPersonGood=class dima4096x/ImplicitScala$RichPersonGood of class dima4096x/ImplicitScala
+  public static final #13= #2 of #11;     // RichPersonGood$=class dima4096x/ImplicitScala$RichPersonGood$ of class dima4096x/ImplicitScala
+SourceFile: "ImplicitScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+

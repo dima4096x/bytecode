@@ -1,0 +1,64 @@
+Classfile /home/dima4096x/Desktop/bytecode/long-vs-int/dima4096x/LongVsInt.class
+  Last modified Apr 16, 2023; size 350 bytes
+  SHA-256 checksum 7f4fc599b4ff194030d83623de82d4338c711d5d02181879c10bec7e8c2a1e4e
+  Compiled from "LongVsInt.scala"
+public final class dima4096x.LongVsInt
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/LongVsInt
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 2, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/LongVsInt
+   #2 = Class              #1             // dima4096x/LongVsInt
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               LongVsInt.scala
+   #6 = Utf8               boo
+   #7 = Utf8               (II)I
+   #8 = Utf8               dima4096x/LongVsInt$
+   #9 = Class              #8             // dima4096x/LongVsInt$
+  #10 = Utf8               MODULE$
+  #11 = Utf8               Ldima4096x/LongVsInt$;
+  #12 = NameAndType        #10:#11        // MODULE$:Ldima4096x/LongVsInt$;
+  #13 = Fieldref           #9.#12         // dima4096x/LongVsInt$.MODULE$:Ldima4096x/LongVsInt$;
+  #14 = NameAndType        #6:#7          // boo:(II)I
+  #15 = Methodref          #9.#14         // dima4096x/LongVsInt$.boo:(II)I
+  #16 = Utf8               foo
+  #17 = Utf8               (JJ)J
+  #18 = NameAndType        #16:#17        // foo:(JJ)J
+  #19 = Methodref          #9.#18         // dima4096x/LongVsInt$.foo:(JJ)J
+  #20 = Utf8               Code
+  #21 = Utf8               SourceFile
+  #22 = Utf8               TASTY
+  #23 = Utf8               Scala
+{
+  public static int boo(int, int);
+    descriptor: (II)I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #13                 // Field dima4096x/LongVsInt$.MODULE$:Ldima4096x/LongVsInt$;
+         3: iload_0
+         4: iload_1
+         5: invokevirtual #15                 // Method dima4096x/LongVsInt$.boo:(II)I
+         8: ireturn
+
+  public static long foo(long, long);
+    descriptor: (JJ)J
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=4, args_size=2
+         0: getstatic     #13                 // Field dima4096x/LongVsInt$.MODULE$:Ldima4096x/LongVsInt$;
+         3: lload_0
+         4: lload_2
+         5: invokevirtual #19                 // Method dima4096x/LongVsInt$.foo:(JJ)J
+         8: lreturn
+}
+SourceFile: "LongVsInt.scala"
+  TASTY: length = 0x10 (unknown attribute)
+   00 10 9B B0 95 25 77 00 00 FB 21 80 E3 2F D2 00
+
+  Scala: length = 0x0 (unknown attribute)
+

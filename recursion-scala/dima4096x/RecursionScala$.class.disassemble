@@ -1,0 +1,165 @@
+Classfile /home/dima4096x/Desktop/bytecode/recursion-scala/dima4096x/RecursionScala$.class
+  Last modified Apr 16, 2023; size 1063 bytes
+  SHA-256 checksum 78cfb59cacaac49ff727a321190d6b329148ce4b49ed53c7fbb328806b5b8cdb
+  Compiled from "RecursionScala.scala"
+public final class dima4096x.RecursionScala$ implements java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/RecursionScala$
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 1, methods: 6, attributes: 2
+Constant pool:
+   #1 = Utf8               dima4096x/RecursionScala$
+   #2 = Class              #1             // dima4096x/RecursionScala$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               java/io/Serializable
+   #6 = Class              #5             // java/io/Serializable
+   #7 = Utf8               RecursionScala.scala
+   #8 = Utf8               MODULE$
+   #9 = Utf8               Ldima4096x/RecursionScala$;
+  #10 = Utf8               <init>
+  #11 = Utf8               ()V
+  #12 = NameAndType        #10:#11        // "<init>":()V
+  #13 = Methodref          #4.#12         // java/lang/Object."<init>":()V
+  #14 = Utf8               this
+  #15 = Utf8               <clinit>
+  #16 = Methodref          #2.#12         // dima4096x/RecursionScala$."<init>":()V
+  #17 = NameAndType        #8:#9          // MODULE$:Ldima4096x/RecursionScala$;
+  #18 = Fieldref           #2.#17         // dima4096x/RecursionScala$.MODULE$:Ldima4096x/RecursionScala$;
+  #19 = Utf8               writeReplace
+  #20 = Utf8               ()Ljava/lang/Object;
+  #21 = Utf8               scala/runtime/ModuleSerializationProxy
+  #22 = Class              #21            // scala/runtime/ModuleSerializationProxy
+  #23 = Utf8               (Ljava/lang/Class;)V
+  #24 = NameAndType        #10:#23        // "<init>":(Ljava/lang/Class;)V
+  #25 = Methodref          #22.#24        // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+  #26 = Utf8               factorialBad
+  #27 = Utf8               (I)I
+  #28 = Utf8               i
+  #29 = NameAndType        #26:#27        // factorialBad:(I)I
+  #30 = Methodref          #2.#29         // dima4096x/RecursionScala$.factorialBad:(I)I
+  #31 = Utf8               I
+  #32 = Utf8               factorialGood
+  #33 = Utf8               (II)I
+  #34 = Utf8               acc
+  #35 = Utf8               factorialGood$default$2
+  #36 = Utf8               ()I
+  #37 = Utf8               Code
+  #38 = Utf8               LineNumberTable
+  #39 = Utf8               LocalVariableTable
+  #40 = Utf8               StackMapTable
+  #41 = Utf8               MethodParameters
+  #42 = Utf8               Signature
+  #43 = Utf8               SourceFile
+  #44 = Utf8               Scala
+{
+  public static final dima4096x.RecursionScala$ MODULE$;
+    descriptor: Ldima4096x/RecursionScala$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #2                  // class dima4096x/RecursionScala$
+         3: dup
+         4: invokespecial #16                 // Method "<init>":()V
+         7: putstatic     #18                 // Field MODULE$:Ldima4096x/RecursionScala$;
+        10: return
+      LineNumberTable:
+        line 6: 0
+
+  public int factorialBad(int);
+    descriptor: (I)I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: iload_1
+         1: iconst_0
+         2: if_icmpeq     10
+         5: iload_1
+         6: iconst_1
+         7: if_icmpne     12
+        10: iconst_1
+        11: ireturn
+        12: iload_1
+        13: aload_0
+        14: iload_1
+        15: iconst_1
+        16: isub
+        17: invokevirtual #30                 // Method factorialBad:(I)I
+        20: imul
+        21: ireturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 10 /* same */
+        frame_type = 1 /* same */
+      LineNumberTable:
+        line 7: 0
+        line 8: 12
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      22     0  this   Ldima4096x/RecursionScala$;
+            0      22     1     i   I
+    MethodParameters:
+      Name                           Flags
+      i                              final
+
+  public int factorialGood(int, int);
+    descriptor: (II)I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=5, args_size=3
+         0: iload_1
+         1: iconst_1
+         2: if_icmpge     7
+         5: iload_2
+         6: ireturn
+         7: iload_1
+         8: iconst_1
+         9: isub
+        10: istore_3
+        11: iload_2
+        12: iload_1
+        13: imul
+        14: istore        4
+        16: iload_3
+        17: istore_1
+        18: iload         4
+        20: istore_2
+        21: goto          0
+      StackMapTable: number_of_entries = 2
+        frame_type = 0 /* same */
+        frame_type = 6 /* same */
+      LineNumberTable:
+        line 12: 0
+        line 13: 7
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      24     0  this   Ldima4096x/RecursionScala$;
+            0      24     1     i   I
+            0      24     2   acc   I
+    MethodParameters:
+      Name                           Flags
+      i                              final
+      acc                            final
+
+  public int factorialGood$default$2();
+    descriptor: ()I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LineNumberTable:
+        line 11: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Ldima4096x/RecursionScala$;
+    Signature: #36                          // ()I
+}
+SourceFile: "RecursionScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+

@@ -1,0 +1,203 @@
+Classfile /home/dima4096x/Desktop/bytecode/pattern-matching-scala/dima4096x/RUB$.class
+  Last modified Apr 16, 2023; size 1601 bytes
+  SHA-256 checksum 1c2f3b8640c092cc5d4c5b9284dd135958459dacaff64e18a49be73fe34f52b3
+  Compiled from "PatternMatchingScala.scala"
+public final class dima4096x.RUB$ implements scala.deriving.Mirror$Product,java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/RUB$
+  super_class: #4                         // java/lang/Object
+  interfaces: 2, fields: 1, methods: 8, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/RUB$
+   #2 = Class              #1             // dima4096x/RUB$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               scala/deriving/Mirror$Product
+   #6 = Class              #5             // scala/deriving/Mirror$Product
+   #7 = Utf8               java/io/Serializable
+   #8 = Class              #7             // java/io/Serializable
+   #9 = Utf8               PatternMatchingScala.scala
+  #10 = Utf8               scala/deriving/Mirror
+  #11 = Class              #10            // scala/deriving/Mirror
+  #12 = Utf8               Product
+  #13 = Utf8               MODULE$
+  #14 = Utf8               Ldima4096x/RUB$;
+  #15 = Utf8               <init>
+  #16 = Utf8               ()V
+  #17 = NameAndType        #15:#16        // "<init>":()V
+  #18 = Methodref          #4.#17         // java/lang/Object."<init>":()V
+  #19 = Utf8               this
+  #20 = Utf8               <clinit>
+  #21 = Methodref          #2.#17         // dima4096x/RUB$."<init>":()V
+  #22 = NameAndType        #13:#14        // MODULE$:Ldima4096x/RUB$;
+  #23 = Fieldref           #2.#22         // dima4096x/RUB$.MODULE$:Ldima4096x/RUB$;
+  #24 = Utf8               writeReplace
+  #25 = Utf8               ()Ljava/lang/Object;
+  #26 = Utf8               scala/runtime/ModuleSerializationProxy
+  #27 = Class              #26            // scala/runtime/ModuleSerializationProxy
+  #28 = Utf8               (Ljava/lang/Class;)V
+  #29 = NameAndType        #15:#28        // "<init>":(Ljava/lang/Class;)V
+  #30 = Methodref          #27.#29        // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+  #31 = Utf8               apply
+  #32 = Utf8               (J)Ldima4096x/RUB;
+  #33 = Utf8               amount
+  #34 = Utf8               dima4096x/RUB
+  #35 = Class              #34            // dima4096x/RUB
+  #36 = Utf8               (J)V
+  #37 = NameAndType        #15:#36        // "<init>":(J)V
+  #38 = Methodref          #35.#37        // dima4096x/RUB."<init>":(J)V
+  #39 = Utf8               J
+  #40 = Utf8               unapply
+  #41 = Utf8               (Ldima4096x/RUB;)Ldima4096x/RUB;
+  #42 = Utf8               x$1
+  #43 = Utf8               Ldima4096x/RUB;
+  #44 = Utf8               toString
+  #45 = Utf8               ()Ljava/lang/String;
+  #46 = Utf8               RUB
+  #47 = String             #46            // RUB
+  #48 = Utf8               fromProduct
+  #49 = Utf8               (Lscala/Product;)Ldima4096x/RUB;
+  #50 = Utf8               x$0
+  #51 = Utf8               scala/Product
+  #52 = Class              #51            // scala/Product
+  #53 = Utf8               productElement
+  #54 = Utf8               (I)Ljava/lang/Object;
+  #55 = NameAndType        #53:#54        // productElement:(I)Ljava/lang/Object;
+  #56 = InterfaceMethodref #52.#55        // scala/Product.productElement:(I)Ljava/lang/Object;
+  #57 = Utf8               scala/runtime/BoxesRunTime
+  #58 = Class              #57            // scala/runtime/BoxesRunTime
+  #59 = Utf8               unboxToLong
+  #60 = Utf8               (Ljava/lang/Object;)J
+  #61 = NameAndType        #59:#60        // unboxToLong:(Ljava/lang/Object;)J
+  #62 = Methodref          #58.#61        // scala/runtime/BoxesRunTime.unboxToLong:(Ljava/lang/Object;)J
+  #63 = Utf8               Lscala/Product;
+  #64 = Utf8               (Lscala/Product;)Ljava/lang/Object;
+  #65 = Utf8               p
+  #66 = NameAndType        #48:#49        // fromProduct:(Lscala/Product;)Ldima4096x/RUB;
+  #67 = Methodref          #2.#66         // dima4096x/RUB$.fromProduct:(Lscala/Product;)Ldima4096x/RUB;
+  #68 = Utf8               Code
+  #69 = Utf8               LineNumberTable
+  #70 = Utf8               LocalVariableTable
+  #71 = Utf8               MethodParameters
+  #72 = Utf8               Signature
+  #73 = Utf8               InnerClasses
+  #74 = Utf8               SourceFile
+  #75 = Utf8               Scala
+{
+  public static final dima4096x.RUB$ MODULE$;
+    descriptor: Ldima4096x/RUB$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #2                  // class dima4096x/RUB$
+         3: dup
+         4: invokespecial #21                 // Method "<init>":()V
+         7: putstatic     #23                 // Field MODULE$:Ldima4096x/RUB$;
+        10: return
+      LineNumberTable:
+        line 14: 0
+
+  public dima4096x.RUB apply(long);
+    descriptor: (J)Ldima4096x/RUB;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=3, args_size=2
+         0: new           #35                 // class dima4096x/RUB
+         3: dup
+         4: lload_1
+         5: invokespecial #38                 // Method dima4096x/RUB."<init>":(J)V
+         8: areturn
+      LineNumberTable:
+        line 14: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Ldima4096x/RUB$;
+            0       9     1 amount   J
+    MethodParameters:
+      Name                           Flags
+      amount                         final
+
+  public dima4096x.RUB unapply(dima4096x.RUB);
+    descriptor: (Ldima4096x/RUB;)Ldima4096x/RUB;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: areturn
+      LineNumberTable:
+        line 14: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Ldima4096x/RUB$;
+            0       2     1   x$1   Ldima4096x/RUB;
+    MethodParameters:
+      Name                           Flags
+      x$1                            final
+
+  public java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: ldc           #47                 // String RUB
+         2: areturn
+      LineNumberTable:
+        line 14: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  this   Ldima4096x/RUB$;
+    Signature: #45                          // ()Ljava/lang/String;
+
+  public dima4096x.RUB fromProduct(scala.Product);
+    descriptor: (Lscala/Product;)Ldima4096x/RUB;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: new           #35                 // class dima4096x/RUB
+         3: dup
+         4: aload_1
+         5: iconst_0
+         6: invokeinterface #56,  2           // InterfaceMethod scala/Product.productElement:(I)Ljava/lang/Object;
+        11: invokestatic  #62                 // Method scala/runtime/BoxesRunTime.unboxToLong:(Ljava/lang/Object;)J
+        14: invokespecial #38                 // Method dima4096x/RUB."<init>":(J)V
+        17: areturn
+      LineNumberTable:
+        line 14: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      18     0  this   Ldima4096x/RUB$;
+            0      18     1   x$0   Lscala/Product;
+    MethodParameters:
+      Name                           Flags
+      x$0                            final
+
+  public java.lang.Object fromProduct(scala.Product);
+    descriptor: (Lscala/Product;)Ljava/lang/Object;
+    flags: (0x1041) ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokevirtual #67                 // Method fromProduct:(Lscala/Product;)Ldima4096x/RUB;
+         5: areturn
+      LineNumberTable:
+        line 14: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldima4096x/RUB$;
+            0       6     1     p   Lscala/Product;
+    MethodParameters:
+      Name                           Flags
+      p                              final
+}
+InnerClasses:
+  public static #12= #6 of #11;           // Product=class scala/deriving/Mirror$Product of class scala/deriving/Mirror
+SourceFile: "PatternMatchingScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+

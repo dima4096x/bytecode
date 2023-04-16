@@ -1,0 +1,28 @@
+Classfile /home/dima4096x/Desktop/bytecode/pattern-matching-scala/dima4096x/Money.class
+  Last modified Apr 16, 2023; size 161 bytes
+  SHA-256 checksum b7f248d8ba405b1c4917a707e0232f5070efab985b080972899cb71832a80430
+  Compiled from "PatternMatchingScala.scala"
+public interface dima4096x.Money
+  minor version: 0
+  major version: 52
+  flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+  this_class: #2                          // dima4096x/Money
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 0, attributes: 3
+Constant pool:
+  #1 = Utf8               dima4096x/Money
+  #2 = Class              #1              // dima4096x/Money
+  #3 = Utf8               java/lang/Object
+  #4 = Class              #3              // java/lang/Object
+  #5 = Utf8               PatternMatchingScala.scala
+  #6 = Utf8               SourceFile
+  #7 = Utf8               TASTY
+  #8 = Utf8               Scala
+{
+}
+SourceFile: "PatternMatchingScala.scala"
+  TASTY: length = 0x10 (unknown attribute)
+   00 72 E4 EF A3 34 1D 00 00 CB D2 A1 7B 2A 20 00
+
+  Scala: length = 0x0 (unknown attribute)
+

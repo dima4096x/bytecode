@@ -1,0 +1,49 @@
+Classfile /home/dima4096x/Desktop/bytecode/pattern-matching-scala/dima4096x/PatternMatchingScala.class
+  Last modified Apr 16, 2023; size 365 bytes
+  SHA-256 checksum 0c6fdc187379602f9bd17143adc1077e59f181e54a9690fabc8e107d2cb1cb16
+  Compiled from "PatternMatchingScala.scala"
+public final class dima4096x.PatternMatchingScala
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/PatternMatchingScala
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 1, attributes: 3
+Constant pool:
+   #1 = Utf8               dima4096x/PatternMatchingScala
+   #2 = Class              #1             // dima4096x/PatternMatchingScala
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               PatternMatchingScala.scala
+   #6 = Utf8               p
+   #7 = Utf8               ()Ldima4096x/Money;
+   #8 = Utf8               dima4096x/PatternMatchingScala$
+   #9 = Class              #8             // dima4096x/PatternMatchingScala$
+  #10 = Utf8               MODULE$
+  #11 = Utf8               Ldima4096x/PatternMatchingScala$;
+  #12 = NameAndType        #10:#11        // MODULE$:Ldima4096x/PatternMatchingScala$;
+  #13 = Fieldref           #9.#12         // dima4096x/PatternMatchingScala$.MODULE$:Ldima4096x/PatternMatchingScala$;
+  #14 = NameAndType        #6:#7          // p:()Ldima4096x/Money;
+  #15 = Methodref          #9.#14         // dima4096x/PatternMatchingScala$.p:()Ldima4096x/Money;
+  #16 = Utf8               Code
+  #17 = Utf8               Signature
+  #18 = Utf8               SourceFile
+  #19 = Utf8               TASTY
+  #20 = Utf8               Scala
+{
+  public static dima4096x.Money p();
+    descriptor: ()Ldima4096x/Money;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #13                 // Field dima4096x/PatternMatchingScala$.MODULE$:Ldima4096x/PatternMatchingScala$;
+         3: invokevirtual #15                 // Method dima4096x/PatternMatchingScala$.p:()Ldima4096x/Money;
+         6: areturn
+    Signature: #7                           // ()Ldima4096x/Money;
+}
+SourceFile: "PatternMatchingScala.scala"
+  TASTY: length = 0x10 (unknown attribute)
+   00 1D 83 5D 3F 6E 55 00 00 C2 31 48 08 38 09 00
+
+  Scala: length = 0x0 (unknown attribute)
+

@@ -1,0 +1,94 @@
+Classfile /home/dima4096x/Desktop/bytecode/inheritance-scala/dima4096x/InheritanceScala$.class
+  Last modified Apr 16, 2023; size 835 bytes
+  SHA-256 checksum c4a9635f440be26e748cb177f28f0a99f47e7e9236b16401b4724c6ad552a0eb
+  Compiled from "InheritanceScala.scala"
+public final class dima4096x.InheritanceScala$ implements java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/InheritanceScala$
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 1, methods: 4, attributes: 2
+Constant pool:
+   #1 = Utf8               dima4096x/InheritanceScala$
+   #2 = Class              #1             // dima4096x/InheritanceScala$
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               java/io/Serializable
+   #6 = Class              #5             // java/io/Serializable
+   #7 = Utf8               InheritanceScala.scala
+   #8 = Utf8               MODULE$
+   #9 = Utf8               Ldima4096x/InheritanceScala$;
+  #10 = Utf8               <init>
+  #11 = Utf8               ()V
+  #12 = NameAndType        #10:#11        // "<init>":()V
+  #13 = Methodref          #4.#12         // java/lang/Object."<init>":()V
+  #14 = Utf8               this
+  #15 = Utf8               <clinit>
+  #16 = Methodref          #2.#12         // dima4096x/InheritanceScala$."<init>":()V
+  #17 = NameAndType        #8:#9          // MODULE$:Ldima4096x/InheritanceScala$;
+  #18 = Fieldref           #2.#17         // dima4096x/InheritanceScala$.MODULE$:Ldima4096x/InheritanceScala$;
+  #19 = Utf8               writeReplace
+  #20 = Utf8               ()Ljava/lang/Object;
+  #21 = Utf8               scala/runtime/ModuleSerializationProxy
+  #22 = Class              #21            // scala/runtime/ModuleSerializationProxy
+  #23 = Utf8               (Ljava/lang/Class;)V
+  #24 = NameAndType        #10:#23        // "<init>":(Ljava/lang/Class;)V
+  #25 = Methodref          #22.#24        // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+  #26 = Utf8               boo
+  #27 = Utf8               dima4096x/ParrotThreeLanguage
+  #28 = Class              #27            // dima4096x/ParrotThreeLanguage
+  #29 = Methodref          #28.#12        // dima4096x/ParrotThreeLanguage."<init>":()V
+  #30 = Utf8               speak
+  #31 = NameAndType        #30:#11        // speak:()V
+  #32 = Methodref          #28.#31        // dima4096x/ParrotThreeLanguage.speak:()V
+  #33 = Utf8               parrotThreeLanguage
+  #34 = Utf8               Ldima4096x/ParrotThreeLanguage;
+  #35 = Utf8               Code
+  #36 = Utf8               LineNumberTable
+  #37 = Utf8               LocalVariableTable
+  #38 = Utf8               Signature
+  #39 = Utf8               SourceFile
+  #40 = Utf8               Scala
+{
+  public static final dima4096x.InheritanceScala$ MODULE$;
+    descriptor: Ldima4096x/InheritanceScala$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #2                  // class dima4096x/InheritanceScala$
+         3: dup
+         4: invokespecial #16                 // Method "<init>":()V
+         7: putstatic     #18                 // Field MODULE$:Ldima4096x/InheritanceScala$;
+        10: return
+      LineNumberTable:
+        line 4: 0
+
+  public void boo();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: new           #28                 // class dima4096x/ParrotThreeLanguage
+         3: dup
+         4: invokespecial #29                 // Method dima4096x/ParrotThreeLanguage."<init>":()V
+         7: astore_1
+         8: aload_1
+         9: invokevirtual #32                 // Method dima4096x/ParrotThreeLanguage.speak:()V
+        12: return
+      LineNumberTable:
+        line 5: 0
+        line 6: 8
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            8       5     1 parrotThreeLanguage   Ldima4096x/ParrotThreeLanguage;
+            0      13     0  this   Ldima4096x/InheritanceScala$;
+    Signature: #11                          // ()V
+}
+SourceFile: "InheritanceScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+
