@@ -1,6 +1,6 @@
 Classfile /home/dima4096x/Desktop/bytecode/implicit-scala/dima4096x/ImplicitScala$RichPersonGood$.class
-  Last modified Apr 16, 2023; size 1794 bytes
-  SHA-256 checksum 1fdb9883de7b570c460fa5a50a2da5843ee437ad1aadfe3fb429ee5e7f3980ba
+  Last modified Apr 20, 2023; size 1928 bytes
+  SHA-256 checksum 357c207f82aa252cf6e03a64670b03e5782c0752dc3b8435dfb727ca271a3261
   Compiled from "ImplicitScala.scala"
 public final class dima4096x.ImplicitScala$RichPersonGood$ implements java.io.Serializable
   minor version: 0
@@ -65,33 +65,38 @@ Constant pool:
   #53 = Utf8               Ljava/lang/Object;
   #54 = Utf8               greetingAnyVal$extension
   #55 = Utf8               (Ldima4096x/Person;)Ljava/lang/String;
-  #56 = Utf8               java/lang/StringBuilder
-  #57 = Class              #56            // java/lang/StringBuilder
-  #58 = Integer            7
-  #59 = Utf8               (I)V
-  #60 = NameAndType        #16:#59        // "<init>":(I)V
-  #61 = Methodref          #57.#60        // java/lang/StringBuilder."<init>":(I)V
-  #62 = Utf8               Hello,
-  #63 = String             #62            // Hello,
-  #64 = Utf8               append
-  #65 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
-  #66 = NameAndType        #64:#65        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
-  #67 = Methodref          #57.#66        // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
-  #68 = Utf8               name
-  #69 = Utf8               ()Ljava/lang/String;
-  #70 = NameAndType        #68:#69        // name:()Ljava/lang/String;
-  #71 = Methodref          #36.#70        // dima4096x/Person.name:()Ljava/lang/String;
-  #72 = Utf8               toString
-  #73 = NameAndType        #72:#69        // toString:()Ljava/lang/String;
-  #74 = Methodref          #57.#73        // java/lang/StringBuilder.toString:()Ljava/lang/String;
-  #75 = Utf8               Code
-  #76 = Utf8               LineNumberTable
-  #77 = Utf8               LocalVariableTable
-  #78 = Utf8               MethodParameters
-  #79 = Utf8               StackMapTable
-  #80 = Utf8               InnerClasses
-  #81 = Utf8               SourceFile
-  #82 = Utf8               Scala
+  #56 = Utf8               scala/collection/StringOps$
+  #57 = Class              #56            // scala/collection/StringOps$
+  #58 = Utf8               Lscala/collection/StringOps$;
+  #59 = NameAndType        #14:#58        // MODULE$:Lscala/collection/StringOps$;
+  #60 = Fieldref           #57.#59        // scala/collection/StringOps$.MODULE$:Lscala/collection/StringOps$;
+  #61 = Utf8               scala/Predef$
+  #62 = Class              #61            // scala/Predef$
+  #63 = Utf8               Lscala/Predef$;
+  #64 = NameAndType        #14:#63        // MODULE$:Lscala/Predef$;
+  #65 = Fieldref           #62.#64        // scala/Predef$.MODULE$:Lscala/Predef$;
+  #66 = Utf8               Hello
+  #67 = String             #66            // Hello
+  #68 = Utf8               augmentString
+  #69 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #70 = NameAndType        #68:#69        // augmentString:(Ljava/lang/String;)Ljava/lang/String;
+  #71 = Methodref          #62.#70        // scala/Predef$.augmentString:(Ljava/lang/String;)Ljava/lang/String;
+  #72 = Utf8               name
+  #73 = Utf8               ()Ljava/lang/String;
+  #74 = NameAndType        #72:#73        // name:()Ljava/lang/String;
+  #75 = Methodref          #36.#74        // dima4096x/Person.name:()Ljava/lang/String;
+  #76 = Utf8               $plus$plus$extension
+  #77 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #78 = NameAndType        #76:#77        // $plus$plus$extension:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #79 = Methodref          #57.#78        // scala/collection/StringOps$.$plus$plus$extension:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #80 = Utf8               Code
+  #81 = Utf8               LineNumberTable
+  #82 = Utf8               LocalVariableTable
+  #83 = Utf8               MethodParameters
+  #84 = Utf8               StackMapTable
+  #85 = Utf8               InnerClasses
+  #86 = Utf8               SourceFile
+  #87 = Utf8               Scala
 {
   public static final dima4096x.ImplicitScala$RichPersonGood$ MODULE$;
     descriptor: Ldima4096x/ImplicitScala$RichPersonGood$;
@@ -211,23 +216,20 @@ Constant pool:
     flags: (0x0011) ACC_PUBLIC, ACC_FINAL
     Code:
       stack=3, locals=2, args_size=2
-         0: new           #57                 // class java/lang/StringBuilder
-         3: dup
-         4: ldc           #58                 // int 7
-         6: invokespecial #61                 // Method java/lang/StringBuilder."<init>":(I)V
-         9: ldc           #63                 // String Hello,
-        11: invokevirtual #67                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
-        14: aload_1
-        15: invokevirtual #71                 // Method dima4096x/Person.name:()Ljava/lang/String;
-        18: invokevirtual #67                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
-        21: invokevirtual #74                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
-        24: areturn
+         0: getstatic     #60                 // Field scala/collection/StringOps$.MODULE$:Lscala/collection/StringOps$;
+         3: getstatic     #65                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+         6: ldc           #67                 // String Hello
+         8: invokevirtual #71                 // Method scala/Predef$.augmentString:(Ljava/lang/String;)Ljava/lang/String;
+        11: aload_1
+        12: invokevirtual #75                 // Method dima4096x/Person.name:()Ljava/lang/String;
+        15: invokevirtual #79                 // Method scala/collection/StringOps$.$plus$plus$extension:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        18: areturn
       LineNumberTable:
         line 17: 0
       LocalVariableTable:
         Start  Length  Slot  Name   Signature
-            0      25     0  this   Ldima4096x/ImplicitScala$RichPersonGood$;
-            0      25     1 $this   Ldima4096x/Person;
+            0      19     0  this   Ldima4096x/ImplicitScala$RichPersonGood$;
+            0      19     1 $this   Ldima4096x/Person;
     MethodParameters:
       Name                           Flags
       $this                          final

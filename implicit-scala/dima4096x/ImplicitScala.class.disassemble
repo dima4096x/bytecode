@@ -1,6 +1,6 @@
 Classfile /home/dima4096x/Desktop/bytecode/implicit-scala/dima4096x/ImplicitScala.class
-  Last modified Apr 16, 2023; size 1383 bytes
-  SHA-256 checksum 3c8bf5ae6de55812d1546037e6700a6c1275bec014dda35814a7d5b2bef9dd88
+  Last modified Apr 20, 2023; size 1383 bytes
+  SHA-256 checksum 2d71e663569dcbed540d90ed99bd657a167f8210f04bff232098be79604912a9
   Compiled from "ImplicitScala.scala"
 public class dima4096x.ImplicitScala
   minor version: 0
@@ -164,7 +164,7 @@ InnerClasses:
   public static final #14= #13 of #2;     // RichPersonGood$=class dima4096x/ImplicitScala$RichPersonGood$ of class dima4096x/ImplicitScala
 SourceFile: "ImplicitScala.scala"
   TASTY: length = 0x10 (unknown attribute)
-   00 CE BA 8E 86 D4 46 00 00 E4 E9 A5 C9 AC D5 00
+   00 6C ED 89 43 3E 69 00 00 76 FE 8E 1E 7D D0 00
 
   Scala: length = 0x0 (unknown attribute)
 

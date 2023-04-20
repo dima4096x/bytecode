@@ -1,64 +1,101 @@
 Classfile /home/dima4096x/Desktop/bytecode/long-vs-int/dima4096x/LongVsInt.class
-  Last modified Apr 16, 2023; size 350 bytes
-  SHA-256 checksum 7f4fc599b4ff194030d83623de82d4338c711d5d02181879c10bec7e8c2a1e4e
+  Last modified Apr 20, 2023; size 571 bytes
+  SHA-256 checksum a0b3fcc86ac754fdcae20e6bb5eb6722a41fc0f4e903b79f462fe251a6482ff8
   Compiled from "LongVsInt.scala"
-public final class dima4096x.LongVsInt
+public class dima4096x.LongVsInt
   minor version: 0
   major version: 52
-  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
   this_class: #2                          // dima4096x/LongVsInt
   super_class: #4                         // java/lang/Object
-  interfaces: 0, fields: 0, methods: 2, attributes: 3
+  interfaces: 0, fields: 0, methods: 3, attributes: 3
 Constant pool:
    #1 = Utf8               dima4096x/LongVsInt
    #2 = Class              #1             // dima4096x/LongVsInt
    #3 = Utf8               java/lang/Object
    #4 = Class              #3             // java/lang/Object
    #5 = Utf8               LongVsInt.scala
-   #6 = Utf8               boo
-   #7 = Utf8               (II)I
-   #8 = Utf8               dima4096x/LongVsInt$
-   #9 = Class              #8             // dima4096x/LongVsInt$
-  #10 = Utf8               MODULE$
-  #11 = Utf8               Ldima4096x/LongVsInt$;
-  #12 = NameAndType        #10:#11        // MODULE$:Ldima4096x/LongVsInt$;
-  #13 = Fieldref           #9.#12         // dima4096x/LongVsInt$.MODULE$:Ldima4096x/LongVsInt$;
-  #14 = NameAndType        #6:#7          // boo:(II)I
-  #15 = Methodref          #9.#14         // dima4096x/LongVsInt$.boo:(II)I
-  #16 = Utf8               foo
-  #17 = Utf8               (JJ)J
-  #18 = NameAndType        #16:#17        // foo:(JJ)J
-  #19 = Methodref          #9.#18         // dima4096x/LongVsInt$.foo:(JJ)J
+   #6 = Utf8               <init>
+   #7 = Utf8               ()V
+   #8 = NameAndType        #6:#7          // "<init>":()V
+   #9 = Methodref          #4.#8          // java/lang/Object."<init>":()V
+  #10 = Utf8               this
+  #11 = Utf8               Ldima4096x/LongVsInt;
+  #12 = Utf8               boo
+  #13 = Utf8               (II)I
+  #14 = Utf8               i
+  #15 = Utf8               i2
+  #16 = Utf8               I
+  #17 = Utf8               foo
+  #18 = Utf8               (JJ)J
+  #19 = Utf8               J
   #20 = Utf8               Code
-  #21 = Utf8               SourceFile
-  #22 = Utf8               TASTY
-  #23 = Utf8               Scala
+  #21 = Utf8               LineNumberTable
+  #22 = Utf8               LocalVariableTable
+  #23 = Utf8               MethodParameters
+  #24 = Utf8               SourceFile
+  #25 = Utf8               TASTY
+  #26 = Utf8               Scala
 {
-  public static int boo(int, int);
-    descriptor: (II)I
-    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+  public dima4096x.LongVsInt();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
     Code:
-      stack=3, locals=2, args_size=2
-         0: getstatic     #13                 // Field dima4096x/LongVsInt$.MODULE$:Ldima4096x/LongVsInt$;
-         3: iload_0
-         4: iload_1
-         5: invokevirtual #15                 // Method dima4096x/LongVsInt$.boo:(II)I
-         8: ireturn
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldima4096x/LongVsInt;
 
-  public static long foo(long, long);
-    descriptor: (JJ)J
-    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+  public int boo(int, int);
+    descriptor: (II)I
+    flags: (0x0001) ACC_PUBLIC
     Code:
-      stack=5, locals=4, args_size=2
-         0: getstatic     #13                 // Field dima4096x/LongVsInt$.MODULE$:Ldima4096x/LongVsInt$;
-         3: lload_0
-         4: lload_2
-         5: invokevirtual #19                 // Method dima4096x/LongVsInt$.foo:(JJ)J
-         8: lreturn
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_2
+         2: iadd
+         3: ireturn
+      LineNumberTable:
+        line 4: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/LongVsInt;
+            0       4     1     i   I
+            0       4     2    i2   I
+    MethodParameters:
+      Name                           Flags
+      i                              final
+      i2                             final
+
+  public long foo(long, long);
+    descriptor: (JJ)J
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=5, args_size=3
+         0: lload_1
+         1: lload_3
+         2: ladd
+         3: lreturn
+      LineNumberTable:
+        line 5: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/LongVsInt;
+            0       4     1     i   J
+            0       4     3    i2   J
+    MethodParameters:
+      Name                           Flags
+      i                              final
+      i2                             final
 }
 SourceFile: "LongVsInt.scala"
   TASTY: length = 0x10 (unknown attribute)
-   00 10 9B B0 95 25 77 00 00 FB 21 80 E3 2F D2 00
+   00 21 F2 E9 60 9D 55 00 00 00 3C E3 CF 6A AC 00
 
   Scala: length = 0x0 (unknown attribute)
 

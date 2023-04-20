@@ -14,7 +14,7 @@ class ImplicitScala:
 
 object ImplicitScala:
   implicit class RichPersonGood(p: Person) extends AnyVal:
-    def greetingAnyVal = s"Hello, ${p.name}"
+    def greetingAnyVal = "Hello" + p.name
 
   implicit class RichPersonBad(p: Person):
     def greeting = s"Hello, ${p.name}"

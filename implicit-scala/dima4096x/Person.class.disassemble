@@ -1,6 +1,6 @@
 Classfile /home/dima4096x/Desktop/bytecode/implicit-scala/dima4096x/Person.class
-  Last modified Apr 16, 2023; size 3124 bytes
-  SHA-256 checksum 55778691bb85c83e28b78be4fda14a155f6b38866cf4a34c6c81375fe0a47594
+  Last modified Apr 20, 2023; size 3124 bytes
+  SHA-256 checksum 580dcd0612e6fce04e9da4c267e53541d7aab71ca0d5f1208e3d1a17e9f075b0
   Compiled from "ImplicitScala.scala"
 public class dima4096x.Person implements scala.Product,java.io.Serializable
   minor version: 0
@@ -521,7 +521,7 @@ Constant pool:
 }
 SourceFile: "ImplicitScala.scala"
   TASTY: length = 0x10 (unknown attribute)
-   00 C8 29 F8 46 12 2C 00 00 AB 46 C8 5B 8E D5 00
+   00 C8 29 F8 46 12 2C 00 00 AB 40 C8 5D 88 D5 00
 
   Scala: length = 0x0 (unknown attribute)
 

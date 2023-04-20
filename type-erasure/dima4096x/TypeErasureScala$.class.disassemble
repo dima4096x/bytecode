@@ -1,0 +1,315 @@
+Classfile /home/dima4096x/Desktop/bytecode/type-erasure/dima4096x/TypeErasureScala$.class
+  Last modified Apr 20, 2023; size 2122 bytes
+  SHA-256 checksum c62e5f2e4eaeb48f35d8b44170312eacb51028e9bf49351ae2f53a9b89eb389f
+  Compiled from "TypeErasureScala.scala"
+public final class dima4096x.TypeErasureScala$ implements java.io.Serializable
+  minor version: 0
+  major version: 52
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // dima4096x/TypeErasureScala$
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 2, methods: 6, attributes: 2
+Constant pool:
+    #1 = Utf8               dima4096x/TypeErasureScala$
+    #2 = Class              #1            // dima4096x/TypeErasureScala$
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               java/io/Serializable
+    #6 = Class              #5            // java/io/Serializable
+    #7 = Utf8               TypeErasureScala.scala
+    #8 = Utf8               p
+    #9 = Utf8               Ldima4096x/Person;
+   #10 = Utf8               MODULE$
+   #11 = Utf8               Ldima4096x/TypeErasureScala$;
+   #12 = Utf8               <init>
+   #13 = Utf8               ()V
+   #14 = NameAndType        #12:#13       // "<init>":()V
+   #15 = Methodref          #4.#14        // java/lang/Object."<init>":()V
+   #16 = Utf8               this
+   #17 = Utf8               <clinit>
+   #18 = Methodref          #2.#14        // dima4096x/TypeErasureScala$."<init>":()V
+   #19 = NameAndType        #10:#11       // MODULE$:Ldima4096x/TypeErasureScala$;
+   #20 = Fieldref           #2.#19        // dima4096x/TypeErasureScala$.MODULE$:Ldima4096x/TypeErasureScala$;
+   #21 = Utf8               dima4096x/Person$
+   #22 = Class              #21           // dima4096x/Person$
+   #23 = Utf8               Ldima4096x/Person$;
+   #24 = NameAndType        #10:#23       // MODULE$:Ldima4096x/Person$;
+   #25 = Fieldref           #22.#24       // dima4096x/Person$.MODULE$:Ldima4096x/Person$;
+   #26 = Utf8               dima
+   #27 = String             #26           // dima
+   #28 = Utf8               apply
+   #29 = Utf8               (Ljava/lang/String;)Ldima4096x/Person;
+   #30 = NameAndType        #28:#29       // apply:(Ljava/lang/String;)Ldima4096x/Person;
+   #31 = Methodref          #22.#30       // dima4096x/Person$.apply:(Ljava/lang/String;)Ldima4096x/Person;
+   #32 = NameAndType        #8:#9         // p:Ldima4096x/Person;
+   #33 = Fieldref           #2.#32        // dima4096x/TypeErasureScala$.p:Ldima4096x/Person;
+   #34 = Utf8               ()Ldima4096x/Person;
+   #35 = NameAndType        #8:#34        // p:()Ldima4096x/Person;
+   #36 = Methodref          #2.#35        // dima4096x/TypeErasureScala$.p:()Ldima4096x/Person;
+   #37 = Utf8               dima4096x/Person
+   #38 = Class              #37           // dima4096x/Person
+   #39 = Utf8               boo
+   #40 = NameAndType        #39:#13       // boo:()V
+   #41 = Methodref          #38.#40       // dima4096x/Person.boo:()V
+   #42 = Utf8               writeReplace
+   #43 = Utf8               ()Ljava/lang/Object;
+   #44 = Utf8               scala/runtime/ModuleSerializationProxy
+   #45 = Class              #44           // scala/runtime/ModuleSerializationProxy
+   #46 = Utf8               (Ljava/lang/Class;)V
+   #47 = NameAndType        #12:#46       // "<init>":(Ljava/lang/Class;)V
+   #48 = Methodref          #45.#47       // scala/runtime/ModuleSerializationProxy."<init>":(Ljava/lang/Class;)V
+   #49 = Utf8               arrayMatch
+   #50 = Utf8               (Ljava/lang/Object;)V
+   #51 = Utf8               <T:Ljava/lang/Object;>(Ljava/lang/Object;)V
+   #52 = Utf8               array
+   #53 = Utf8               [I
+   #54 = Class              #53           // "[I"
+   #55 = Utf8               scala/Predef$
+   #56 = Class              #55           // scala/Predef$
+   #57 = Utf8               Lscala/Predef$;
+   #58 = NameAndType        #10:#57       // MODULE$:Lscala/Predef$;
+   #59 = Fieldref           #56.#58       // scala/Predef$.MODULE$:Lscala/Predef$;
+   #60 = Utf8               int
+   #61 = String             #60           // int
+   #62 = Utf8               println
+   #63 = NameAndType        #62:#50       // println:(Ljava/lang/Object;)V
+   #64 = Methodref          #56.#63       // scala/Predef$.println:(Ljava/lang/Object;)V
+   #65 = Utf8               [J
+   #66 = Class              #65           // "[J"
+   #67 = Utf8               long
+   #68 = String             #67           // long
+   #69 = Utf8               [Ldima4096x/Person;
+   #70 = Class              #69           // "[Ldima4096x/Person;"
+   #71 = Utf8               person
+   #72 = String             #71           // person
+   #73 = Utf8               scala/runtime/ScalaRunTime$
+   #74 = Class              #73           // scala/runtime/ScalaRunTime$
+   #75 = Utf8               Lscala/runtime/ScalaRunTime$;
+   #76 = NameAndType        #10:#75       // MODULE$:Lscala/runtime/ScalaRunTime$;
+   #77 = Fieldref           #74.#76       // scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+   #78 = Utf8               isArray
+   #79 = Utf8               (Ljava/lang/Object;I)Z
+   #80 = NameAndType        #78:#79       // isArray:(Ljava/lang/Object;I)Z
+   #81 = Methodref          #74.#80       // scala/runtime/ScalaRunTime$.isArray:(Ljava/lang/Object;I)Z
+   #82 = Utf8               any
+   #83 = String             #82           // any
+   #84 = Utf8               scala/MatchError
+   #85 = Class              #84           // scala/MatchError
+   #86 = NameAndType        #12:#50       // "<init>":(Ljava/lang/Object;)V
+   #87 = Methodref          #85.#86       // scala/MatchError."<init>":(Ljava/lang/Object;)V
+   #88 = Utf8               a
+   #89 = Utf8               Ljava/lang/Object;
+   #90 = Utf8               listMatchBad
+   #91 = Utf8               (Lscala/collection/immutable/List;)V
+   #92 = Utf8               <T:Ljava/lang/Object;>(Lscala/collection/immutable/List<TT;>;)V
+   #93 = Utf8               list
+   #94 = Utf8               scala/collection/immutable/List
+   #95 = Class              #94           // scala/collection/immutable/List
+   #96 = Utf8               l
+   #97 = Utf8               Lscala/collection/immutable/List;
+   #98 = Utf8               Code
+   #99 = Utf8               LineNumberTable
+  #100 = Utf8               LocalVariableTable
+  #101 = Utf8               Signature
+  #102 = Utf8               StackMapTable
+  #103 = Utf8               MethodParameters
+  #104 = Utf8               SourceFile
+  #105 = Utf8               Scala
+{
+  public static final dima4096x.TypeErasureScala$ MODULE$;
+    descriptor: Ldima4096x/TypeErasureScala$;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #2                  // class dima4096x/TypeErasureScala$
+         3: dup
+         4: invokespecial #18                 // Method "<init>":()V
+         7: putstatic     #20                 // Field MODULE$:Ldima4096x/TypeErasureScala$;
+        10: getstatic     #25                 // Field dima4096x/Person$.MODULE$:Ldima4096x/Person$;
+        13: ldc           #27                 // String dima
+        15: invokevirtual #31                 // Method dima4096x/Person$.apply:(Ljava/lang/String;)Ldima4096x/Person;
+        18: putstatic     #33                 // Field p:Ldima4096x/Person;
+        21: getstatic     #20                 // Field MODULE$:Ldima4096x/TypeErasureScala$;
+        24: invokevirtual #36                 // Method p:()Ldima4096x/Person;
+        27: invokevirtual #41                 // Method dima4096x/Person.boo:()V
+        30: return
+      LineNumberTable:
+        line 7: 0
+        line 8: 21
+
+  public dima4096x.Person p();
+    descriptor: ()Ldima4096x/Person;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: getstatic     #33                 // Field p:Ldima4096x/Person;
+         3: areturn
+      LineNumberTable:
+        line 7: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   Ldima4096x/TypeErasureScala$;
+    Signature: #34                          // ()Ldima4096x/Person;
+
+  public <T extends java.lang.Object> void arrayMatch(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=7, args_size=2
+         0: aload_1
+         1: astore_2
+         2: aload_2
+         3: instanceof    #54                 // class "[I"
+         6: ifeq          23
+         9: aload_2
+        10: checkcast     #54                 // class "[I"
+        13: astore_3
+        14: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        17: ldc           #61                 // String int
+        19: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        22: return
+        23: aload_2
+        24: instanceof    #66                 // class "[J"
+        27: ifeq          45
+        30: aload_2
+        31: checkcast     #66                 // class "[J"
+        34: astore        4
+        36: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        39: ldc           #68                 // String long
+        41: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        44: return
+        45: aload_2
+        46: instanceof    #70                 // class "[Ldima4096x/Person;"
+        49: ifeq          67
+        52: aload_2
+        53: checkcast     #70                 // class "[Ldima4096x/Person;"
+        56: astore        5
+        58: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        61: ldc           #72                 // String person
+        63: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        66: return
+        67: getstatic     #77                 // Field scala/runtime/ScalaRunTime$.MODULE$:Lscala/runtime/ScalaRunTime$;
+        70: aload_2
+        71: iconst_1
+        72: invokevirtual #81                 // Method scala/runtime/ScalaRunTime$.isArray:(Ljava/lang/Object;I)Z
+        75: ifeq          90
+        78: aload_2
+        79: astore        6
+        81: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        84: ldc           #83                 // String any
+        86: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        89: return
+        90: new           #85                 // class scala/MatchError
+        93: dup
+        94: aload_2
+        95: invokespecial #87                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+        98: athrow
+      StackMapTable: number_of_entries = 4
+        frame_type = 252 /* append */
+          offset_delta = 23
+          locals = [ class java/lang/Object ]
+        frame_type = 21 /* same */
+        frame_type = 21 /* same */
+        frame_type = 22 /* same */
+      LineNumberTable:
+        line 15: 0
+        line 11: 0
+        line 12: 2
+        line 13: 23
+        line 14: 45
+        line 15: 67
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           14       9     3     a   [I
+           36       9     4     a   [J
+           58       9     5     a   [Ldima4096x/Person;
+           81       9     6     a   Ljava/lang/Object;
+            0      99     0  this   Ldima4096x/TypeErasureScala$;
+            0      99     1 array   Ljava/lang/Object;
+    Signature: #51                          // <T:Ljava/lang/Object;>(Ljava/lang/Object;)V
+    MethodParameters:
+      Name                           Flags
+      array                          final
+
+  public <T extends java.lang.Object> void listMatchBad(scala.collection.immutable.List<T>);
+    descriptor: (Lscala/collection/immutable/List;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=7, args_size=2
+         0: aload_1
+         1: astore_2
+         2: aload_2
+         3: instanceof    #95                 // class scala/collection/immutable/List
+         6: ifeq          20
+         9: aload_2
+        10: astore_3
+        11: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        14: ldc           #61                 // String int
+        16: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        19: return
+        20: aload_2
+        21: instanceof    #95                 // class scala/collection/immutable/List
+        24: ifeq          39
+        27: aload_2
+        28: astore        4
+        30: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        33: ldc           #72                 // String person
+        35: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        38: return
+        39: aload_2
+        40: instanceof    #95                 // class scala/collection/immutable/List
+        43: ifeq          58
+        46: aload_2
+        47: astore        5
+        49: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        52: ldc           #68                 // String long
+        54: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        57: return
+        58: aload_2
+        59: instanceof    #95                 // class scala/collection/immutable/List
+        62: ifeq          77
+        65: aload_2
+        66: astore        6
+        68: getstatic     #59                 // Field scala/Predef$.MODULE$:Lscala/Predef$;
+        71: ldc           #83                 // String any
+        73: invokevirtual #64                 // Method scala/Predef$.println:(Ljava/lang/Object;)V
+        76: return
+        77: new           #85                 // class scala/MatchError
+        80: dup
+        81: aload_2
+        82: invokespecial #87                 // Method scala/MatchError."<init>":(Ljava/lang/Object;)V
+        85: athrow
+      StackMapTable: number_of_entries = 4
+        frame_type = 252 /* append */
+          offset_delta = 20
+          locals = [ class scala/collection/immutable/List ]
+        frame_type = 18 /* same */
+        frame_type = 18 /* same */
+        frame_type = 18 /* same */
+      LineNumberTable:
+        line 22: 0
+        line 18: 0
+        line 19: 2
+        line 20: 20
+        line 21: 39
+        line 22: 58
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           11       9     3     l   Lscala/collection/immutable/List;
+           30       9     4     l   Lscala/collection/immutable/List;
+           49       9     5     l   Lscala/collection/immutable/List;
+           68       9     6     l   Lscala/collection/immutable/List;
+            0      86     0  this   Ldima4096x/TypeErasureScala$;
+            0      86     1  list   Lscala/collection/immutable/List;
+    Signature: #92                          // <T:Ljava/lang/Object;>(Lscala/collection/immutable/List<TT;>;)V
+    MethodParameters:
+      Name                           Flags
+      list                           final
+}
+SourceFile: "TypeErasureScala.scala"
+  Scala: length = 0x0 (unknown attribute)
+
